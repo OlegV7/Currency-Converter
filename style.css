@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Arvo', serif;
+    background-color: #e8f9fd;
+}
+
+nav {
+    background-color: #2d545e;
+}
+
+nav a {
+    padding: 15px 40px;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    width: 400px;
+}
+
+.converterForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#currencyForm {
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 70%;
+    height: 40%;
+    /* border: 1px solid black; */
+}
+
+.from-currency,
+.input-value-currency,
+.to-currency,
+.output-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#from, #toCurrencyOpt {
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    margin: 1rem 0.5rem;
+}
+
+#for-label, #to-label {
+    /* position: absolute; */
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#fromCurrency {
+    border: none;
+    width: 30%;
+    height: 40px;
+}
+
+#toCurrency {
+    font-size: 2.5rem;
+}
+
+table, th, td, tbody, tr {
+    border: 1px solid black;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 30rem;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(228, 228, 228);
+}
+
+th{
+    background-color: #fff;
+}

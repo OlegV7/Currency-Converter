@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter | Convert any currency | Oleg Vasilev</title>
+</head>
+<body>
+    <nav>
+        <a href="#">Currency Converter</a>
+    </nav>
+
+<main>
+    <section class="converterForm">
+        <form id="currencyForm">
+                <div class="from-currency">
+                    <label for="fromCurrency" id="for-label"><span id="fromCountry">Select a currency</span></label> <br><br>
+                    <select name="from" id="from"></select>
+                </div>
+                <div class="input-value-currency">
+                    <input type="number" name="fromCurrency" id="fromCurrency">
+                </div>
+                <div class="to-currency">
+                    <!-- <button id="swap">SWAP</button> -->
+                    <label for="toCurrency" id="to-label"><span id="toCountry">Select a currency</span></label>
+                    <select name="toCurrencyOpt" id="toCurrencyOpt"></select>
+                </div>
+                <div class="output-field">
+                    <span id="toCurrency">0.00</span>
+                </div>
+        </form>
+    </section>
+</main>
+
+    <script src="app.js"></script>
+</body>
+</html>
